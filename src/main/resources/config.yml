@@ -1,0 +1,26 @@
+# ============================================================
+#  Jalebi Commands
+#  Only the commands listed below can be used / tab completed
+#  by normal players. Operators (OPs) are never restricted.
+#  (Players with the permission jalebicommands.bypass are not
+#  restricted either.)
+# ============================================================
+
+# Message shown when a player types a command that is not allowed.
+# Supports & colour codes.
+invalid-command-message: "&cInvalid command."
+
+# If true, aliases of an allowed command are allowed too.
+# e.g. allowing "msg" also allows "tell" and "w".
+include-aliases: true
+
+# Command names WITHOUT the slash.
+allowed-commands:
+  - help
+  - spawn
+  - msg
+  - tpa
+  - tpaccept
+  - tpdeny
+  - home
+  - sethome
